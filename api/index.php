@@ -1,5 +1,5 @@
 <?php
-  $directory = __DIR__ ."/photo";
+  $directory = "/var/task/user/photo";
   // scandir is to use to get the folder like an array
   // array_diff(make rmeove some)
   $filesAndFolders = array_diff(scandir($directory , SCANDIR_SORT_NONE), array('.', '..'));
